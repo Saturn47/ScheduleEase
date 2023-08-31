@@ -18,7 +18,6 @@ const slots: Slot[] = [
 ];
 
 const AppointmentBooking: React.FC = () => {
-  const { eventId } = useParams<{ eventId: string }>();
   const [bookedSlot, setBookedSlot] = useState<number | null>(null);
 
   const handleBookSlot = (slotId: number) => {
