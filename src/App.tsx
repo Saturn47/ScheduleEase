@@ -9,7 +9,6 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element = {<Login/>} />
-        <Route path="/register" element = {<Register/>} />
         <Route path="/calendar" element = {<Calendar/>} />
         <Route path="/booking/:eventId" element={<AppointmentBooking/>}/> 
       </Routes>
