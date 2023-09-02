@@ -73,7 +73,7 @@ const Calendar: React.FC = () => {
             <div>
               <p>Event ID: {event.id}</p>
               <Link to={`/booking/${event.id}`}>
-                Book Appointment
+                Book
               </Link>
             </div>
           )}
