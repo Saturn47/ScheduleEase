@@ -1,5 +1,5 @@
 # ScheduleEase - an application for booking appointment (Oneshot project)
-
+live website : https://schedule-ease.netlify.app/
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
